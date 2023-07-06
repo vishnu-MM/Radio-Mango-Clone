@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="26px" viewBox="0 0 25 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/youtube-play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="12.5" cy="12.7896662" r="12.5"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="25" height="25" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mango-Mood" transform="translate(-131.000000, -839.000000)">
+            <g id="LeftMenu">
+                <g id="Widgets/Leftmenu">
+                    <g id="Group-5" transform="translate(46.000000, 839.000000)">
+                        <g id="Icons/youtube-play" transform="translate(85.000000, 0.000000)">
+                            <g>
+                                <rect id="Rectangle" x="0" y="0" width="25" height="25"></rect>
+                                <use id="Oval" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                                <path d="M18.1818182,14.5251022 L18.1818182,10.4748978 C18.1818182,10.4748978 18.1818182,8.52272727 16.2235151,8.52272727 L8.77581673,8.52272727 C8.77581673,8.52272727 6.81818182,8.52272727 6.81818182,10.4748978 L6.81818182,14.5251022 C6.81818182,14.5251022 6.81818182,16.4772727 8.77581673,16.4772727 L16.2235151,16.4772727 C16.2235151,16.4772727 18.1818182,16.4772727 18.1818182,14.5251022 M14.706181,12.5056614 L10.9860066,14.6836203 L10.9860066,10.3270364 L14.706181,12.5056614" id="Shape" fill="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
