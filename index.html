@@ -163,12 +163,29 @@
                 <img src="images/musicicon.svg" alt="music icon" >
                 <p class="mt-2 mb-0 px-lg-5 px-sm-2 "><span class="player-title">LIVE MUSIC </span><br><span class="player-title">(back to back)</span> </p>
             </div>
-            <img src="images/Screenshot 2023-07-04 233439.png" alt="music icon">
+            <img src="images/pause-icon.png" alt="music icon" id="myImage" >
             <img src="images/Volume.png" alt="music icon" id="volume-icon">
 
         </div>
     </header>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        // Store references to the image element and the image URLs
+        const image = document.getElementById('myImage');
+        const imageUrls = ['images/pause-icon.png', 'images/play-icon.png'];
+
+        let currentIndex = 0; // Index of the currently displayed image
+
+        // Function to toggle between images
+        function toggleImage() {
+        currentIndex = (currentIndex + 1) % imageUrls.length; // Calculate the next index
+
+        // Set the src attribute of the image element to the new image URL
+        image.src = imageUrls[currentIndex];
+        }
+
+        // Add a click event listener to the image element
+        image.addEventListener('click', toggleImage);
+    </script>
 </body>
 </html>
